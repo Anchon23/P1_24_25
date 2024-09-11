@@ -10,6 +10,14 @@ body {
     margin: 0;
 }
 
+header, nav, article, aside, footer {
+    display: flex; /* Usamos flexbox para centrar */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    text-align: center;
+    padding: 10px;
+}
+
 header {
     grid-area: header;
     background-color: lightgray;
