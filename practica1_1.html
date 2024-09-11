@@ -1,12 +1,45 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-    <title>My First Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1_1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <div class="header">
-        <div class="item">content 1</div>
-        <div class="item">content 2</div>
+    <h1>Bienvenido a la Práctica 1_1</h1>
+    <p>Este es un ejemplo de cómo puedes crear una página simple en HTML con estilos básicos en CSS.</p>
+    <p>¡Gracias por visitar esta página!</p>
+
+    <!-- Botón para regresar a la página principal -->
+    <button class="back-button" onclick="window.location.href='index.html';">Volver a la Página Principal</button>
 </body>
 </html>
